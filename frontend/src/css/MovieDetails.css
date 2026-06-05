@@ -1,0 +1,87 @@
+.movie-details {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.movie-details-content {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.movie-details-poster {
+    width: 300px;
+    border-radius: 12px;
+}
+
+.movie-details-info {
+    flex: 1;
+}
+
+.movie-details-info h1 {
+    margin-bottom: 1rem;
+}
+
+.movie-meta {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.genre-list {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.genre {
+    background: #333;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+}
+
+.overview {
+    line-height: 1.7;
+}
+.top-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.back-btn,
+.random-detail-btn {
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.back-btn {
+  background: #333;
+  color: white;
+}
+
+.random-detail-btn {
+  background: linear-gradient(135deg, #7c3aed, #2563eb);
+  color: white;
+}
+
+.favorite-detail-btn {
+  background: #ff4757;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.favorite-detail-btn.active {
+  background: #c2364c;
+}

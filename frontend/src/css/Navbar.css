@@ -1,0 +1,73 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #181818;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-brand a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #f44336;
+}
+
+.genre-select {
+  background-color: #222;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 8px;
+  padding: 0.7rem;
+  min-width: 140px;
+  cursor: pointer;
+}
+
+.genre-select option {
+  background-color: #222;
+  color: white;
+}
+
+.random-btn {
+  background: linear-gradient(135deg, #7c3aed, #2563eb);
+  color: white;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.random-btn:hover {
+  transform: translateY(-2px);
+}
+.rating-select {
+  background-color: #222;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 8px;
+  padding: 0.7rem;
+  min-width: 90px;
+  cursor: pointer;
+}
